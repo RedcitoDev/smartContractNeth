@@ -1,0 +1,30 @@
+{
+	"viaIR": false,
+	"codegen": "yul",
+	"remappings": [
+		"@openzeppelin/=lib/openzeppelin-contracts/contracts/",
+		"solady/=lib/solady/src/",
+		"erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+		"forge-std/=lib/forge-std/src/",
+		"halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+		"openzeppelin-contracts/=lib/openzeppelin-contracts/"
+	],
+	"evmVersion": "cancun",
+	"outputSelection": {
+		"*": {
+			"*": [
+				"abi"
+			]
+		}
+	},
+	"optimizer": {
+		"enabled": true,
+		"mode": "3",
+		"fallback_to_optimizing_for_size": false,
+		"disable_system_request_memoization": true
+	},
+	"metadata": {},
+	"libraries": {},
+	"enableEraVMExtensions": false,
+	"forceEVMLA": false
+}
